@@ -1,0 +1,60 @@
+First: null
+Removed first: null
+Last: null
+Number of Vehicles in list: 0
+Is list empty: true
+Entire list: 
+
+Invalid boat length: -8
+edu.monmouth.vehicle.BoatException: Invalid boat length: -8
+	at DataStructuresAssignment1/edu.monmouth.vehicle.Boat.setBoatLength(Boat.java:26)
+	at DataStructuresAssignment1/edu.monmouth.vehicle.Boat.<init>(Boat.java:13)
+	at DataStructuresAssignment1/edu.monmouth.hw1.HW1.main(HW1.java:53)
+Invalid engine size: -4
+edu.monmouth.vehicle.CarException: Invalid engine size: -4
+	at DataStructuresAssignment1/edu.monmouth.vehicle.Car.setEngineSize(Car.java:25)
+	at DataStructuresAssignment1/edu.monmouth.vehicle.Car.<init>(Car.java:12)
+	at DataStructuresAssignment1/edu.monmouth.hw1.HW1.main(HW1.java:59)
+After inserting Vehicles: 
+Motorcycle [powerSource=Gasoline]
+Motorcycle [powerSource=Gasoline]
+Motorcycle [powerSource=Gasoline]
+Car [engineSize=4, powerSource=Diesel]
+Car [engineSize=12, powerSource=Electricity]
+Boat [boatLength=500, powerSource=Diesel]
+Boat [boatLength=12, powerSource=Gasoline]
+
+After adding another Vehicle to end: 
+Motorcycle [powerSource=Gasoline]
+Motorcycle [powerSource=Gasoline]
+Motorcycle [powerSource=Gasoline]
+Car [engineSize=4, powerSource=Diesel]
+Car [engineSize=12, powerSource=Electricity]
+Boat [boatLength=500, powerSource=Diesel]
+Boat [boatLength=12, powerSource=Gasoline]
+Car [engineSize=10, powerSource=Gasoline]
+
+First: Motorcycle [powerSource=Gasoline]
+Last: Car [engineSize=10, powerSource=Gasoline]
+Removed first: Motorcycle [powerSource=Gasoline]
+list after removing first: 
+Motorcycle [powerSource=Gasoline]
+Motorcycle [powerSource=Gasoline]
+Car [engineSize=4, powerSource=Diesel]
+Car [engineSize=12, powerSource=Electricity]
+Boat [boatLength=500, powerSource=Diesel]
+Boat [boatLength=12, powerSource=Gasoline]
+Car [engineSize=10, powerSource=Gasoline]
+
+list after adding another Vehicle: 
+Boat [boatLength=900, powerSource=FuelOil]
+Motorcycle [powerSource=Gasoline]
+Motorcycle [powerSource=Gasoline]
+Car [engineSize=4, powerSource=Diesel]
+Car [engineSize=12, powerSource=Electricity]
+Boat [boatLength=500, powerSource=Diesel]
+Boat [boatLength=12, powerSource=Gasoline]
+Car [engineSize=10, powerSource=Gasoline]
+
+Number of Vehicles in list with motorcycles: 8
+Is list empty: false
